@@ -1,5 +1,10 @@
 import React from "react"
+import Landing from "../views/Landing"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <div>
+      <Landing />
+    </div>
+  )
 }
